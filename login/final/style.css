@@ -1,6 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
 *{
     padding:0;
     margin:0;
@@ -9,9 +8,7 @@
 body{
     font-family: inter;
 }
-/* @media only screen and (min-width: 768px) { */
 .container {
-    /* width: 100%; */
     height: 100vh;
     background-color: #4a148c;
     display:flex;
@@ -20,11 +17,10 @@ body{
 }
 .form {
     background-color: #fff;
-    width:400px;
+    width:360px;
     border-radius: 5px;
-    /* text-align: center; */
     padding: 10px 50px;
-    
+    min-width: 360px;
 }
 .form-input{
     display:flex;
@@ -33,20 +29,18 @@ body{
     gap: 5px;
     
 }
-/* .inputPassword{
-    position: relative;
-} */
 .fa-eye{
     color: #FF6F00;
-    /* position: relative;
-    top: -23px;
-    left: 270px; */
     cursor: pointer;
-    
-
+}
+.input{
+    display: flex;
+    border: 1px solid #6A1B9A;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 input{
-    /* padding: 5px 10px; */
     text-align: center;
     border-radius: 5px;
     border:none;
@@ -93,36 +87,11 @@ p{
 a{
     color: #1976D2  
 }
-.input{
-        display: flex;
-        border: 1px solid #6A1B9A;
-        align-items: center;
-        padding: 5px 10px;
-        border-radius: 5px;
-    }
-@media only screen and (max-width:768px){
-    .form {
-    background-color: #fff;
-    width:400px;
-    border-radius: 5px;
-    padding: 10px 50px;
-    margin: 0 20px;
-    
-    }
-    .input{
-        display: flex;
-        border: 1px solid #6A1B9A;
-        align-items: center;
-        padding: 5px 10px;
-        border-radius: 5px;
-    }
-    
-    button{
-        margin-top: 10px
-    }
-    p{
-        font-size: 14px;
+@media only screen and (min-width: 768px){
+    .form{
+        width: 450px;
     }
 }
+
 
 
