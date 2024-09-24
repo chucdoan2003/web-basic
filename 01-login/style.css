@@ -25,23 +25,29 @@
     flex-direction: column;
     margin-top:10px;
     gap: 5px;
-    position: relative;
+    
 }
+/* .inputPassword{
+    position: relative;
+} */
 .fa-eye{
     color: #FF6F00;
-    position: relative;
-    top: -26px;
-    left: 270px;
+    /* position: relative;
+    top: -23px;
+    left: 270px; */
     cursor: pointer;
+    
 
 }
 input{
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
     text-align: center;
     border-radius: 5px;
-    border:1px solid #BA68C8;
+    border:none;
+    outline: none;
     color:#4a148c;
     outline: #4a148c;
+    width: 100%; 
 }
 label{
     color: #4a148c;
@@ -69,6 +75,7 @@ button{
     color: #4a148c;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     cursor: pointer;
+    margin-top:10px;
 }
 .register{ 
     text-align: center;
@@ -80,28 +87,35 @@ p{
 a{
     color: #1976D2  
 }
+.input{
+        display: flex;
+        border: 1px solid #6A1B9A;
+        align-items: center;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
 @media only screen and (max-width:768px){
-
     .form {
     background-color: #fff;
     width:400px;
     border-radius: 5px;
-    /* text-align: center; */
     padding: 10px 50px;
     margin: 0 20px;
     
+    }
+    .input{
+        display: flex;
+        border: 1px solid #6A1B9A;
+        align-items: center;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
     
-    }
-    .fa-eye{
-        color: #FF6F00;
-        position: absolute;
-        top: 30px;
-        left: 260px;
-        cursor: pointer;
-
-    }
     button{
         margin-top: 10px
+    }
+    p{
+        font-size: 14px;
     }
 }
 
