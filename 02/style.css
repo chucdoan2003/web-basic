@@ -1,16 +1,16 @@
 
 .container{
     min-height: 100vh;
-    background-color: rgb(45, 80, 208);
+    background-color: rgb(61, 99, 238);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
 .children{
-    width: 600px;
+    width: 60%;
     background-color: orange;
-    height: 420px;
-    min-width: 600px;
+    height: 400px;
+    
 }
 
