@@ -7,10 +7,9 @@
     align-items: center;
     width: 100%;
 }
-.children{
+
+.content{
     width: 60%;
     background-color: orange;
     height: 400px;
-    
 }
-
