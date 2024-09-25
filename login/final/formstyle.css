@@ -64,7 +64,6 @@ a{
 .fa-eye{
     color: #FF6F00;
     cursor: pointer;
-    z-index: 1000;
 }
 h1{
     text-align: center;
