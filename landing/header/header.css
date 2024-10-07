@@ -6,8 +6,8 @@ header {
     color: #fff;
     font-size: 24px;
     font-weight: 400;
-    height: 51px;
     background-color: #151925;
+    font-family: inter;
 
 }
 header ul li{
@@ -23,6 +23,9 @@ header ul li:hover{
     display: none;
     cursor: pointer;
 }
+header .portfolio_title{
+    font-size: 28px;
+}
 @media only screen and (max-width:768px ) {
    
     header{
@@ -34,7 +37,7 @@ header ul li:hover{
     header ul{
         display:none;
         position: absolute;
-        top: 51.2px;
+        top: 65px;
         right: 0;
         background-color: #151925;
         color:#fff;

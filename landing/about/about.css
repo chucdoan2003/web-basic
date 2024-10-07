@@ -62,6 +62,10 @@ img{
     margin:12px 0;
 
 }
+.about-btn-reviewcv:hover{
+    background-color: #22c0cb;
+    cursor: pointer;
+}
 
 @media (max-width: 1157px){
     .about{
