@@ -73,5 +73,9 @@ img{
     .about .about-title-2{
         font-size: 32px;
     }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
     
 }
