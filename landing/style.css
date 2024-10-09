@@ -8,9 +8,15 @@
 }
 body{
     font-family: inter;
+    scroll-behavior: smooth;
 }
 .container{
     margin: 0 auto;
     max-width: 1440px;
     background-color: #151925;
+}
+a{
+    text-decoration: none;
+    text-transform: none;
+    color: #fff;
 }

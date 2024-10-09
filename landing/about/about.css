@@ -3,13 +3,13 @@ p{
     margin:0;
 }
 .about{
-    margin-top:16px;
+    margin-top:65px;
     background-color: #151925;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 150px;
+    padding: 30px 150px 0 150px;
     flex-wrap: wrap;
 }
 .about .about-title-1, .about-title-2{
@@ -90,7 +90,8 @@ img{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding:0;
+        padding:40px 0 0 0;
+        
     }
     
 }
