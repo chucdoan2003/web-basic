@@ -1,0 +1,43 @@
+.education{
+    color: #fff;
+    padding:  0 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:16px;
+    
+}
+.fa-map-location-dot{
+    color:#01EEFF;
+}
+.education-text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 20px;
+    margin: 8px 24px 0 0;
+}
+.education-image-logo{
+    width: 380px;
+    height: 330px;
+}
+.education img{
+    width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 768px){
+    .education{
+        padding: 0 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .education-text{
+        font-size: 14px;
+    }
+    .education-image-logo{
+        width: 100%;
+    }
+
+}

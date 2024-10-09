@@ -3,11 +3,13 @@ header {
     padding: 12px 16px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: #fff;
     font-size: 24px;
     font-weight: 400;
     background-color: #151925;
     font-family: inter;
+    border-bottom: 1px solid #01EEFF;
 
 }
 header ul li{
@@ -37,7 +39,7 @@ header .portfolio_title{
     header ul{
         display:none;
         position: absolute;
-        top: 65px;
+        top: 45px;
         right: 0;
         background-color: #151925;
         color:#fff;

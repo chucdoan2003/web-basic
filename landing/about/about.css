@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+p{
+    margin:0;
+}
 .about{
+    margin-top:16px;
     background-color: #151925;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 100px;
+    padding: 0 150px;
     flex-wrap: wrap;
 }
 .about .about-title-1, .about-title-2{
